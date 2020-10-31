@@ -48,7 +48,7 @@ class Header extends React.Component{
                 <div ><i class="fa fa-bars" aria-hidden="true" 
                 style={{color:"#E0E0E0",fontSize:"25px",border:"1px solid #E0E0E0",padding:"10px",
                 borderRadius:"5px",marginTop:"10px"}}></i></div>
-                <div><img src="img/amazon.jpg" alt="amazon" /></div>
+                <div><img src="img/amazon.JPG" alt="amazon" /></div>
     
                 <div class="col-auto" style={{marginTop:"7px"}}>
                     <label class="sr-only" for="inlineFormInputGroup">Search For Item</label>
