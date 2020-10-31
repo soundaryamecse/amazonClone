@@ -22,9 +22,9 @@ class AppContextProvider extends React.Component{
     getData=async()=>{      
 
         try{
-            let res= await axios.get("https://amazon-json-mock-server.herokuapp.com//tv")            
+            let res= await axios.get("https://amazon-json-mock-server.herokuapp.com/tv")            
             
-            let resp=await axios.get(" https://amazon-json-mock-server.herokuapp.com//mobile")
+            let resp=await axios.get(" https://amazon-json-mock-server.herokuapp.com/mobile")
             
             this.setState({tv:res.data,
                         mobile:resp.data})
@@ -53,7 +53,7 @@ class AppContextProvider extends React.Component{
     }
 
     handleCart=async(url)=>{
-        let res=await axios.get("https://amazon-json-mock-server.herokuapp.com/"+url)
+        let res=await axios.get("https://amazon-json-mock-server.herokuapp.com"+url)
         const {data}=res
         this.setState({cart:[...this.state.cart,data]})
         alert("Item Added to cart")
