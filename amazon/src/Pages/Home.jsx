@@ -53,21 +53,21 @@ const Home=()=>{
             <div className="d-flex flex-wrap justify-content-between" style={{position:"relative",top:"-200px"}}>
                 <div className="card mt-4" style={{width: "19rem",padding:"20px"}}>
                     <div><h4>Shop By Category</h4></div>
-                    <div><img src="/../public/img/shop.JPG" style={{height:"250px",width:"237px",}} class="card-img-top" alt="..."/></div>
+                    <div><img src="img/shop.JPG" style={{height:"250px",width:"237px",}} class="card-img-top" alt="..."/></div>
                     <div className="card-body">
                         <span class="text-primary" style={{fontSize:"12px"}}>Shop Now</span>
                     </div>
                 </div>
                 <div className="card mt-4 " style={{width: "19rem",padding:"20px"}}>
                     <div><h4>Amazon Basics</h4></div>
-                    <div ><img src="/../public/img/basics.JPG" style={{height:"250px",width:"237px",}} class="card-img-top" alt="..."/></div>
+                    <div ><img src="img/basics.JPG" style={{height:"250px",width:"237px",}} class="card-img-top" alt="..."/></div>
                     <div className="card-body">
                         <span class="text-primary" style={{fontSize:"12px"}}>See More</span>
                     </div>
                 </div>
                 <div className="card mt-4" style={{width: "19rem",padding:"20px"}}>
                     <div><h4>Electronics</h4></div>
-                    <div style={{alignItems:"center"}}><img src="/../public/img/electronics.JPG" style={{height:"250px",width:"237px",}} class="card-img-top" alt="..."/></div>
+                    <div style={{alignItems:"center"}}><img src="img/electronics.JPG" style={{height:"250px",width:"237px",}} class="card-img-top" alt="..."/></div>
                     <div className="card-body">
                         <span class="text-primary" style={{fontSize:"12px"}}>See More</span>
                     </div>
