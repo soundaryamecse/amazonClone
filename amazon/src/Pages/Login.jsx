@@ -68,7 +68,7 @@ class Login extends React.Component{
         {
             return(
                 <LoginWrapper>
-                    <img src="img/amazon.jpg" alt="amazon"/>
+                    <img src="img/amazon.JPG" alt="amazon"/>
                     <h4>Sign In</h4>
                     <p>Use Your Amazon Account</p>
                     <div>       
